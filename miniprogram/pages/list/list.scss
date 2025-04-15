@@ -1,0 +1,110 @@
+.choosenStreet{
+    position: absolute;
+    padding: 0;
+    top: -30rpx;
+    left: 68rpx;
+    // text-align: center;
+}
+.container{
+    position: absolute;
+    top: 60rpx;
+    left: 55rpx;
+    // width: 730rpx;
+    width: 640rpx;
+height: 500rpx;
+background: #FFFFFF;
+border-radius: 15rpx 15rpx 15rpx 15rpx;
+border: 1rpx solid #707070;
+}
+.analysis{
+    position: absolute;
+    top: 40rpx;
+    left: 55rpx;
+    width: 640rpx;
+    height: 300rpx;
+    background: #FFFFFF;
+    border-radius: 15rpx 15rpx 15rpx 15rpx;
+    border: 1rpx solid #707070;
+}
+.color1{
+    position: relative;
+    width: 20rpx;
+    height: 20rpx;
+    background-color: #f0f0f0;
+}
+.color1{
+    position: absolute;
+    top: 20rpx;
+    width: 40rpx;
+    height: 40rpx;
+    background-color: #f0f0f0;
+}
+.text1{
+    position: absolute;
+    top: 20rpx;
+    left: 40rpx;
+}
+.color2{
+    position: absolute;
+    top: 70rpx;
+    width: 40rpx;
+    height: 40rpx;
+    background-color: #ADD8E6;
+}
+.text2{
+    position: absolute;
+    top: 70rpx;
+    left: 40rpx;
+}
+.color3{
+    position: absolute;
+    top: 120rpx;
+    width: 40rpx;
+    height: 40rpx;
+    background-color: #98F98B;
+}
+.text3{
+    position: absolute;
+    top: 120rpx;
+    left: 40rpx;
+}
+.color4{
+    position: absolute;
+    top: 170rpx;
+    width: 40rpx;
+    height: 40rpx;
+    background-color: #808080;
+}
+.text4{
+    position: absolute;
+    top: 170rpx;
+    left: 40rpx;
+}
+.color5{
+    position: absolute;
+    top: 220rpx;
+    width: 40rpx;
+    height: 40rpx;
+    background-color: #800080;
+}
+.text5{
+    position: absolute;
+    top: 220rpx;
+    left: 40rpx;
+}
+.box{
+    position: absolute;
+    // display:block;
+    // flex-wrap: wrap;
+    height: auto;
+    top: 600rpx;
+    left: 68rpx;
+    font-family: Microsoft YaHei, Microsoft YaHei;
+    font-weight: 400;
+    font-size: 35rpx;
+    color: #707070;
+    // line-height: 0rpx;
+    // text-align: left;
+    // font-style: normal;
+    // text-transform: none;
+}

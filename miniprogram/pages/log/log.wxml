@@ -1,0 +1,14 @@
+<!--pages/log/log.wxml-->
+<view wx:for="{{his}}" wx:key="index" bind:tap="jump">
+    <view class="rec1"> 
+        <view class="rec2">
+            <text class="road">{{his[index].address}}</text>
+            <text class="status">{{temp[index]}}</text>
+            <text class="time">{{his[index].timestamp2}}</text>
+            <image class="img" src="data:image/png;base64,{{his[index].image}}" mode=""/>
+        </view>
+    </view>
+</view>
+
+
+

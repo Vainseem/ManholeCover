@@ -1,0 +1,74 @@
+/* pages/setting/setting.wxss */
+.container{
+    width: 750rpx;
+    height: 100vh;
+    background-color: #F7F7F7;
+}
+.box1{
+    position: absolute;
+    width: 750rpx;
+    height: 100rpx;
+    background: #FFFFFF;
+    border-radius: 0rpx 0rpx 0rpx 0rpx;
+}
+.safe{
+    position: absolute;
+    left: 30rpx;
+    top: 50rpx;
+    width: 150rpx;
+    height: 40rpx;
+    font-family: Microsoft YaHei, Microsoft YaHei;
+    font-weight: 400;
+    font-size: 30rpx;
+    color: #707070;
+    line-height: 0rpx;
+    text-align: center;
+    font-style: normal;
+    text-transform: none;
+}
+.box2{
+    position: absolute;
+    top: 120rpx;
+    width: 750rpx;
+    height: 100rpx;
+    background: #FFFFFF;
+    border-radius: 0rpx 0rpx 0rpx 0rpx;
+}
+.box3{
+    position: absolute;
+    top: 220rpx;
+    width: 750rpx;
+    height: 100rpx;
+    background: #FFFFFF;
+    border-radius: 0rpx 0rpx 0rpx 0rpx;
+}
+.box4{
+    position: absolute;
+    top: 320rpx;
+    width: 750rpx;
+    height: 100rpx;
+    background: #FFFFFF;
+    border-radius: 0rpx 0rpx 0rpx 0rpx;
+}
+.level{
+    position: absolute;
+    right:100rpx;
+    top: 50rpx;
+    width: 150rpx;
+    height: 40rpx;
+    font-family: Microsoft YaHei, Microsoft YaHei;
+    font-weight: 400;
+    font-size: 30rpx;
+    color: #707070;
+    line-height: 0rpx;
+    text-align: center;
+    font-style: normal;
+    text-transform: none;
+}
+.then{
+    position: absolute;
+    right:30rpx;
+    top: 25rpx;
+    font-size: 40rpx;
+    color: #707070;
+}

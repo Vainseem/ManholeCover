@@ -1,0 +1,35 @@
+<!--pages/street/street.wxml-->
+<view class="container">
+    <view class="choose">
+
+
+        <view class="tip">查询街道:</view>
+
+    <picker class="placeholder" mode="region" value="{{[provinceName,cityName,districtName]}}" bindchange="onAddressChange">
+        <view wx:if="{{provinceName}}" class="region">
+        {{provinceName + ' ' + cityName + ' ' + districtName}}
+        </view>
+        <view wx:else class="placeholder">请选择您所要查询的地址</view>
+    </picker>
+    
+    </view>
+
+
+    <view class="list">
+    <view wx:for="{{area}}" wx:key="index" bind:tap="list" data-item = "{{item}}">
+        <view class="box">
+            <text class="roadName">{{item}}</text>
+            <text class="log">共计{{count[index]}}条上传记录</text>
+        </view>
+    
+    </view>
+
+
+
+
+    </view>
+
+
+
+
+</view>

@@ -1,0 +1,35 @@
+<text class="choosenStreet">
+    {{choosenStreet}}
+</text>
+
+
+<view class="container">
+    <!-- <view class="analysis">
+        <image src="" mode=""/>
+    </view> -->
+    <view>
+        <canvas canvas-id="pieCanvas" style="position: absolute;bottom:-100rpx ;left: 100rpx; width: 650rpx;height: 650rpx;"/>
+    </view>
+
+    <view class="color1"> </view>
+    <text class="text1">：破损 </text>
+    <view class="color2"></view>
+    <text class="text2">：周边凸起 </text>
+    <view class="color3"></view>
+    <text class="text3">：良好 </text>
+    <view class="color4"></view>
+    <text class="text4">：丢失 </text>
+    <view class="color5"></view>
+    <text class="text5">：未盖上 </text>
+</view>
+<view class="box">
+    <view><text>共有{{countAll}}条上传记录\n</text></view>
+<view><text>破损{{status0}}条\n</text></view>
+<view><text>周边凸起{{status1}}条</text> </view>
+<view><text>良好{{status2}}条</text></view>
+<view><text>丢失{{status3}}条</text></view>
+<view><text>未盖上{{status4}}条</text></view>
+</view>
+
+
+

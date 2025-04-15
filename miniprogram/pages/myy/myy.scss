@@ -1,0 +1,98 @@
+.BG{
+        position: absolute;
+        top: 0;
+        width: 752rpx;
+        height: 540rpx;
+        border-radius: 0rpx 0rpx 0rpx 0rpx;
+    }
+.rec30{
+    position: absolute;
+    top: 384rpx;
+    left: 35rpx;
+    width: 680rpx;
+    height: 724rpx;
+    background: #FFFFFF;
+    box-shadow: inset 0rpx 3rpx 6rpx 1rpx rgba(0,0,0,0.16);
+    border-radius: 25rpx 25rpx 0rpx 0rpx;
+}
+.headImg{
+    position: absolute;
+    top: 48rpx;
+    left: 45rpx;
+    width: 120rpx;
+    height: 120rpx;
+    background: #FFFFFF;
+    border-radius: 50%;
+    box-shadow: 0rpx 3rpx 6rpx 1rpx rgba(0,0,0,0.16);
+}
+.id{
+    position: absolute;
+    left: 225rpx;
+    top: 112rpx;
+    // width: 60rpx;
+    height: 40rpx;
+    font-family: Microsoft YaHei, Microsoft YaHei;
+    font-weight: 400;
+    font-size: 30rpx;
+    color: #707070;
+    line-height: 0rpx;
+    text-align: center;
+    font-style: normal;
+    text-transform: none;
+}
+.editId{
+    position: absolute;
+    left: 586rpx;
+    top: 92rpx;
+    width: 60rpx;
+    height: 60rpx;
+    background: #FFFFFF;
+    // border: 2rpx solid #707070;
+}
+.setting{
+    position: absolute;
+    left: 58rpx;
+    top: 233rpx;
+    width: 600rpx;
+    height: 40rpx;
+    font-family: Microsoft YaHei, Microsoft YaHei;
+    font-weight: 400;
+    font-size: 30rpx;
+    color: #707070;
+    border-bottom: 1rpx solid #C4C4C4;
+    line-height: 0rpx;
+    text-align:left;
+    font-style: normal;
+    text-transform: none;
+}
+.exit{
+    position: absolute;
+    left: 58rpx;
+    top: 313rpx;
+    width: 600rpx;
+    height: 40rpx;
+    font-family: Microsoft YaHei, Microsoft YaHei;
+    font-weight: 400;
+    font-size: 30rpx;
+    color: red;
+    border-bottom: 1rpx solid #C4C4C4;
+    line-height: 0rpx;
+    text-align:left;
+    font-style: normal;
+    text-transform: none;
+}
+// .exit{
+//     position: absolute;
+//     top: 393rpx;
+//     left: 58rpx;
+//     width: 600rpx;
+//     height: 40rpx;
+//     font-family: Microsoft YaHei, Microsoft YaHei;
+//     font-weight: 400;
+//     font-size: 30rpx;
+//     color: red;
+//     line-height: 0rpx;
+//     text-align:left;
+//     font-style: normal;
+//     text-transform: none;
+// }

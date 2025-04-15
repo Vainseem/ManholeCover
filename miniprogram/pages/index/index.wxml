@@ -1,0 +1,46 @@
+
+<view>
+<image class="LOGO" src="../../assets/images/logo.png" alt=""/>
+<image  class="BG" src="../../assets/images/BG.png" mode=""/>
+
+</view>
+
+<view class="camera" bind:tap="camera">
+    <view>
+<view class="rect19"> </view>
+</view>
+<view>
+<view class="rect23"> 
+    <view class="rect13">——</view>
+    <view class="rect17">. </view>
+    <view class="rect14">. </view>
+    <view class="rect15">. </view>
+    <view class="rect16">. </view>
+    <view class="path2"></view>
+    <view class="rect12"> </view>
+    <view class="rect10"> 
+        <view class="circ3">
+                <view class="circ4">
+                     <text class="well">#</text>
+                </view>
+        </view>
+        <view class="rect18"> 
+
+        </view>
+     </view>
+     <text class="paizhao">拍照</text>
+ </view>
+</view>
+</view>
+
+<view class="street" bind:tap="street">
+    <view class="rec19"> </view>
+    <view class="rec23"> 
+        <image id="rec23" src="../../assets/images/street1.png" mode=""/>
+        <text id="street">街道</text>
+        </view>
+</view>
+
+<view class="traffic">
+<image class="trafficPhoto" src="../../assets/images/交通工具.png" mode=""/> 
+</view>

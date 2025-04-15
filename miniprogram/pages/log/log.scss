@@ -1,0 +1,75 @@
+/* pages/log/log.wxss */
+.rec1{
+    position: relative;
+    left: 55rpx;
+    margin-bottom: 50rpx;
+    margin-top: 20rpx;
+    // top: 25rpx;
+    width: 630rpx;
+    height: 160rpx;
+    border-radius: 0rpx 0rpx 0rpx 0rpx;
+    border: 2rpx solid #3CD2BF;
+}
+.rec2{
+    position: relative;
+    left: 10rpx;
+    // top: 10rpx;
+    width: 630rpx;
+    height: 160rpx;
+    background: #FFFFFF;
+    border-radius: 0rpx 0rpx 0rpx 0rpx;
+    border: 2rpx solid #000000;
+}
+.road{
+    position: absolute;
+    left: 40rpx;
+    top: 30rpx;
+    
+    height: 40rpx;
+    font-family: Microsoft YaHei, Microsoft YaHei;
+    font-weight: 400;
+    font-size: 30rpx;
+    color: #707070;
+    line-height: 0rpx;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+.status{
+    position: absolute;
+    left: 40rpx;
+    top: 80rpx;
+
+    height: 31rpx;
+    font-family: Microsoft YaHei, Microsoft YaHei;
+    font-weight: 400;
+    font-size: 30rpx;
+    // color: #C4C4C4;
+    line-height: 0rpx;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+.time{
+    position: absolute;
+    left: 40rpx;
+    top: 125rpx;
+
+    height: 31rpx;
+    font-family: Microsoft YaHei, Microsoft YaHei;
+    font-weight: 400;
+    font-size: 24rpx;
+    color: #C4C4C4;
+    line-height: 0rpx;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+.img{
+    position: absolute;
+    left: 460rpx;
+    top: 20rpx;
+    width: 120rpx;
+    height: 120rpx;
+    border-radius: 0rpx 0rpx 0rpx 0rpx;
+}

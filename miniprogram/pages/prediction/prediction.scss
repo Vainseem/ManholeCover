@@ -1,0 +1,48 @@
+/* pages/prediction/prediction.wxss */
+.time{
+    position: absolute;
+    left: 290rpx;
+    top: 485rpx;
+    height: 40rpx;
+    font-family: Microsoft YaHei, Microsoft YaHei;
+    font-weight: 400;
+    font-size: 30rpx;
+    color: #C4C4C4;
+    line-height: 0rpx;
+    text-align: center;
+    font-style: normal;
+    text-transform: none;
+}
+.traffic{
+    position: absolute;
+    bottom: 0;
+    width: 750rpx;
+    height: 200rpx;
+    border-radius: 0rpx 0rpx 0rpx 0rpx;
+}
+.image{
+    position: absolute;
+    left: 188rpx;
+    top: 60rpx;
+    width: 375rpx;
+    height: 375rpx;
+    border-radius: 0rpx 0rpx 0rpx 0rpx;
+}
+.prediction{
+    position: absolute;
+    top: 575rpx;
+    // left: 295rpx;
+    width: 750rpx;
+    height: 80rpx;
+    font-family: Microsoft YaHei, Microsoft YaHei;
+    font-weight: 400;
+    font-size: 39rpx;
+    color: #707070;
+    line-height: 0rpx;
+    text-stroke: 1px #707070;
+    text-align: auto;
+    text-align: center;
+    // font-style: normal;
+    // text-transform: none;
+    -webkit-text-stroke: 1px #707070;
+}

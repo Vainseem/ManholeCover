@@ -1,0 +1,77 @@
+/* pages/street/street.wxss */
+.container{
+    width: 750rpx;
+    height: 100vh;
+    background-color:#f7f7f7;
+}
+.list{
+    position: absolute;
+    top: 60rpx;
+}
+.box{
+    position: relative;
+    margin-top: 25rpx;
+    margin-bottom: 25rpx;
+    left: 42rpx;
+    width: 666rpx;
+    height: 140rpx;
+    background: #FFFFFF;
+    box-shadow: 0rpx 3rpx 6rpx 1rpx #D3D3D3;
+    border-radius: 15rpx 15rpx 15rpx 15rpx;
+}
+.roadName{
+    position: absolute;
+    left: 31rpx;
+    top: 37rpx;
+    height: 40rpx;
+    font-family: Microsoft YaHei, Microsoft YaHei;
+    font-weight: 400;
+    font-size: 30rpx;
+    color: #707070;
+    line-height: 0rpx;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+.log{
+    position: absolute;
+    left: 31rpx;
+    top: 92rpx;
+    height: 40rpx;
+    font-family: Microsoft YaHei, Microsoft YaHei;
+    font-weight: 400;
+    font-size: 30rpx;
+    color: #C4C4C4;
+    line-height: 0rpx;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+.placeholder{
+    position: absolute;
+    left: 171rpx;
+    top: 20rpx;
+    height: 40rpx;
+    font-family: Microsoft YaHei, Microsoft YaHei;
+    font-weight: 400;
+    font-size: 30rpx;
+    color: #C4C4C4;
+    line-height: 0rpx;
+    text-align: center;
+    font-style: normal;
+    text-transform: none;
+}
+.tip{
+    position: absolute;
+    left: 7rpx;
+    top: 20rpx;
+    height: 40rpx;
+    font-family: Microsoft YaHei, Microsoft YaHei;
+    font-weight: 400;
+    font-size: 30rpx;
+    color: black;
+    line-height: 0rpx;
+    text-align: center;
+    font-style: normal;
+    text-transform: none;
+}

@@ -1,0 +1,10 @@
+<!--pages/prediction/prediction.wxml-->
+
+<image class="image" src="data:image/png;base64,{{image}}" alt='base64 image' mode=""/>
+
+<text class="time">{{time}}</text>
+
+<text class="prediction">{{prediction}}</text>
+
+
+<image class="traffic" src="../../assets/images/交通工具.png" mode=""/>

@@ -1,0 +1,22 @@
+<view class="container">
+    <navigator url="../safe/safe" class="box1">
+    <text class="safe">账号与安全</text>
+    <text class="then"> > </text>
+    </navigator>
+
+    <view class="box2" bind:tap="onLocation">
+    <text class="safe">定位服务</text>
+    <text class="then"> > </text>
+    </view >
+
+    <navigator url="../help/help" class="box3">
+    <text class="safe">帮助与反馈</text>
+    <text class="then"> > </text>
+    </navigator >
+
+    <view class="box4">
+    <text class="safe">关于</text>
+    <text class="level">1.0.0</text>
+    <text class="then"> > </text>
+    </view>
+</view>

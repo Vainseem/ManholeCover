@@ -1,0 +1,58 @@
+<view class="container">
+
+<view wx:if="{{!avatarbase64}}" bind:tap="chooseImg">
+<image class="headImg" src="../../assets/images/avatar.png" mode=""/>
+</view>
+
+<!-- <view wx:else>
+<image class="headImg" src="{{userInfo.headimgurl}}" mode=""/>
+</view> -->
+
+<view wx:else>
+<image bind:tap="chooseImg" class="headImg" src="data:image/png;base64,{{avatarbase64}}" mode=""/>
+</view>
+
+<view class="box">
+    <view class="box1" wx:if="{{!nickname}}">
+        <text class="name">昵称</text>
+        <text class="uname">未登录</text>
+    </view>
+
+    <view class="box1" wx:else>
+        <text class="name">昵称</text>
+        <input
+      class="uname"
+      type="nickname"
+      bindblur="leave"
+      name="nickname"
+      value="{{ nickname }}"
+    />
+    </view>
+
+    <view class="box2">
+        <text class="pname">手机号</text>
+
+            <input class="pNum" type="number" placeholder="请输入手机号" bindinput="handleInput"
+            value="{{phoneNum}}"></input>
+
+
+    </view>
+    <view class="box3">
+        <text class="name">性别</text>
+        <view wx:if="{{!sex}}">
+            <picker mode="selector" range="{{selectorRange}}" value="{{selectorIndex}}" bindchange="onSelectorChange" class="sex">{{selectorRange[selectorIndex]}}</picker>
+        
+        </view>
+
+        <view wx:else>
+            <text class='sex'>{{sex}}</text>
+        </view>
+
+    </view>
+
+</view>
+
+<button class="save" bind:tap="save">保存</button>
+<button class="exit" bind:tap="exit">退出登录</button>
+
+</view>
