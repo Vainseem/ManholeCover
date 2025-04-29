@@ -1,5 +1,8 @@
 # 井观呈平台简介
 - 本项目是一款智能识别井盖状态（未盖上、破损待维修、良好）的微信小程序，由电子科技大学2023信软lr小组于2024-3制作，获第十五届中国大学生服务外包创新创业大赛西部区域赛赛区三等奖
+- 项目后端地址：https://github.com/Vainseem/ManholeCover-BE
+- 项目机器学习地址：https://github.com/Vainseem/ManholeCover-ML
+- 注：前端、后端的APP ID和APP Secret等私密内容已被删除
 ### 前端技术栈
 - WXML
 - Sass
@@ -19,7 +22,7 @@
 ### 演示图
 ![首页](https://github.com/user-attachments/assets/28718589-a466-49c7-aee0-a5bb50fb988c)
 ![未登录](https://github.com/user-attachments/assets/599ec062-d0e4-481d-9f03-bc3830e7a6af)
-![一登录](https://github.com/user-attachments/assets/1cc5750f-0209-4dae-b68d-032856eff4c1)
+![已登录](https://github.com/user-attachments/assets/1cc5750f-0209-4dae-b68d-032856eff4c1)
 ![image](https://github.com/user-attachments/assets/f47eb426-0ad0-4d45-97bd-686bfaa7dab3)
 ![image](https://github.com/user-attachments/assets/47487ddf-959b-4fe6-af39-d313daa8b79c)
 ![image](https://github.com/user-attachments/assets/57e107ae-b372-49db-a74f-17d873a605b5)
